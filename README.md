@@ -3,7 +3,7 @@
 
 # TERMUX (automatic):
 ```
-pkg install git && pkg install python3 && git clone https://github.com/giuse1106/SynapseKit && cd SynapseKit && pip install click && pip install PyGithub && python3 main.py
+pkg install git && pkg install python3 && git clone https://github.com/giuse1106/SynapseKit && cd SynapseKit && pkg install rust && pip install -r requirements && python3 main.py
 ```
 
 # TERMUX (manual):
@@ -20,10 +20,10 @@ git clone https://github.com/giuse1106/SynapseKit
 cd SynapseKit
 ```
 ```
-pip install click
+pkg install rust
 ```
 ```
-pip install PyGithub
+pip install -r requirements.txt
 ```
 ```
 python3 main.py
